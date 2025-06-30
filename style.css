@@ -84,9 +84,9 @@ text-decoration: underline;
   background-color: #f0e0c8;
   width: 100%;
   max-width: 1440px;
-  min-height: 100vh;
-  margin: 0 auto;
+  min-height: 100%;
   position: relative;
+  overflow-x: hidden;
 }
 
 .wireframe .overlap {
