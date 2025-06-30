@@ -84,7 +84,7 @@ text-decoration: underline;
   background-color: #f0e0c8;
   width: 100%;
   max-width: 1440px;
-  min-height: 100%;
+  height: 5179px; /* dipertahankan */
   position: relative;
   overflow-x: hidden;
 }
