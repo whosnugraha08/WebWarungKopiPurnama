@@ -4,10 +4,22 @@
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
-html,
-body {
-  margin: 0px;
+html {
   height: 100%;
+  width: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  overscroll-behavior-y: none;
+}
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  background-color: #f0e0c8;
+  color: #5c4033;
+  line-height: 1.5;
+  font-size: 16px;
+  overflow-x: hidden; /* <== INI PENTING */
 }
 /* a blue color as a generic focus style */
 button:focus-visible {

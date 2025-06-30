@@ -1,3 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .wireframe .div {
+    padding: 0 10px;
+  }
+
+  .wireframe .text-wrapper-3 {
+    left: auto;
+    right: 10px;
+    font-size: 14px;
+  }
+
+  .wireframe .text-wrapper-6 {
+    font-size: 28px;
+  }
+
+  /* Kamu bisa sesuaikan layout lainnya di sini */
+}
+
 .menu-button {
   background-color: #5c4033;
   color: #f0e0c8;
@@ -81,11 +103,13 @@ text-decoration: underline;
 
 .wireframe .div {
   background-color: #f0e0c8;
-  width: 100%;           /* Ganti dari 1440px */
-  max-width: 1440px;     /* Tetap bagus di PC */
-  min-height: 5179px;    /* atau 'auto' jika layout dinamis */
+  width: 100%;
+  max-width: 1440px;
+  min-height: 5179px;
   margin: 0 auto;
   position: relative;
+  box-sizing: border-box;
+  padding: 0 20px; /* supaya kontennya tidak mentok di sisi kiri-kanan di HP */
 }
 
 .wireframe .overlap {
