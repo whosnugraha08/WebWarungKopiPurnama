@@ -82,8 +82,10 @@ text-decoration: underline;
 
 .wireframe .div {
   background-color: #f0e0c8;
-  width: 1440px;
-  height: 5179px;
+  width: 100%;
+  max-width: 1440px;
+  min-height: 100vh;
+  margin: 0 auto;
   position: relative;
 }
 
